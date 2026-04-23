@@ -20,7 +20,7 @@
 ## Methodology
 
 <p align="center">
-  <img width="40%" src="assets/SafetyBPO.png" alt="SafetyBPO"/>
+  <img width="45%" src="assets/SafetyBPO.png" alt="SafetyBPO"/>
 </p>
 
 **SafetyBPO** is a novel diffusion unlearning framework that introduces **Bidirectional Preference Optimization (BPO)** to reformulate safety alignment, enabling fine-grained control of generative output through **dual-view supervision** and **positive–negative guidance**.
