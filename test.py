@@ -31,7 +31,7 @@ def metric_inpro(result_folder, reference, device):
         score = 0
         if result is not None:
             for r in result:
-                if r["score"] > 0.7 and r["class"] in {
+                if r["score"] > 0.6 and r["class"] in {
                     "FEMALE_BREAST_EXPOSED",
                     "FEMALE_GENITALIA_EXPOSED",
                     "MALE_GENITALIA_EXPOSED",

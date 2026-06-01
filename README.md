@@ -2,19 +2,9 @@
 
 <h2 align="center">SafetyBPO: Bidirectional Preference Optimization for Safe Text-to-Image Generation</h2>
 <p align="center">
-  <a href="https://arxiv.org/abs/2602.xxxx"><img src="https://img.shields.io/badge/arXiv-Paper-red.svg" alt="arXiv"></a>
-  <a href="https://huggingface.co/WY123L/SafetyBPO"><img src="https://img.shields.io/badge/Model_HuggingFace-SafetyBPO-blue.svg" alt="HuggingFace"></a>
-  <a href="https://huggingface.co/datasets/WY123L/BPO-Bench"><img src="https://img.shields.io/badge/Dataset_HuggingFace-BPOBench-blue.svg" alt="HuggingFace"></a>
-</p>
-<p align="center">
-  <b>You Wu</b><sup>1</sup> &nbsp;•&nbsp;
-  <b>Beier Zhu</b><sup>2</sup> &nbsp;•&nbsp;
-  <b>Chi Zhang</b><sup>1*</sup>
-</p>
-
-<p align="center">
-  <sup>1</sup>AGI Lab, Westlake University &nbsp;•&nbsp; 
-  <sup>2</sup>University of Science and Technology of China
+  <a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Wu_SafetyBPO_Bidirectional_Preference_Optimization_for_Safe_Text-to-Image_Generation_CVPRF_2026_paper.pdf"><img src="https://img.shields.io/badge/SafetyBPO-Paper-red.svg" alt="SafetyBPO"></a>
+  <a href="https://huggingface.co/WY123L/SafetyBPO"><img src="https://img.shields.io/badge/Model-SafetyBPO-blue.svg" alt="HuggingFace"></a>
+  <a href="https://huggingface.co/datasets/WY123L/BPO-Bench"><img src="https://img.shields.io/badge/Dataset-BPOBench-yellow.svg" alt="HuggingFace"></a>
 </p>
 
 ## Methodology
@@ -32,7 +22,7 @@
 Create and activate a conda environment:
 
 ```
-conda create -n safetybpo python=3.8
+conda create -n safetybpo python=3.10
 conda activate safetybpo
 ```
 
@@ -111,7 +101,8 @@ If our work is useful for your research, please consider citing:
 @inproceedings{wu2026safetybpo,
   title={SafetyBPO: Bidirectional Preference Optimization for Safe Text-to-Image Generation},
   author={Wu, You and Zhu, Beier and Zhang, Chi},
-  booktitle={Findings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4759--4768},
   year={2026}
 }
 ```

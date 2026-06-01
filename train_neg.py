@@ -33,7 +33,6 @@ from diffusers.optimization import get_scheduler
 from diffusers.utils import check_min_version, convert_state_dict_to_diffusers
 from diffusers.utils.import_utils import is_xformers_available
 
-# os.environ["CUDA_VISIBLE_DEVICES"] = "1" 
 
 # Will error if the minimal version of diffusers is not installed. Remove at your own risks.
 check_min_version("0.25.0.dev0")
@@ -317,7 +316,7 @@ def parse_args(input_args=None):
     parser.add_argument(
         "--tracker_name",
         type=str,
-        default="diffusion-npo",
+        default="safetybpo",
         help=("The name of the tracker to report results to."),
     )
 
