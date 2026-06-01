@@ -101,7 +101,7 @@ If our work is useful for your research, please consider citing:
 @inproceedings{wu2026safetybpo,
   title={SafetyBPO: Bidirectional Preference Optimization for Safe Text-to-Image Generation},
   author={Wu, You and Zhu, Beier and Zhang, Chi},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
   pages={4759--4768},
   year={2026}
 }
